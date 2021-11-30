@@ -1,0 +1,72 @@
+body {
+  background-color: #052c05;
+}
+li {
+  list-style-type: none;
+}
+#start,
+#pause,
+#reset {
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 32px;
+  border-radius: 45px;
+  padding: 10px 25px;
+  font-family: lato;
+  font-weight: 600;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  border-color: white;
+  position: absolute;
+}
+
+#start {
+  top: 50%;
+  left: 40%;
+  transform: translateX(-50%);
+  color: #1e90ffa1;
+  border-color: dodgerblue;
+}
+#pause {
+  top: 50%;
+  left: 60%;
+  transform: translateX(-50%);
+  color: #ff0000a1;
+  border-color: red;
+}
+#reset {
+  top: 60%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #ffffffa1;
+  border-color: white;
+}
+#start:hover {
+  transition: 0.5s ease-in-out;
+  color: dodgerblue;
+  border-color: dodgerblue;
+  text-shadow: 0 0 1px #0780f8, 0.5px 0.5px 20px #0780f8, 1px 1px 50px #0780f8;
+}
+#pause:hover {
+  transition: 0.5s ease-in-out;
+  color: red;
+  border-color: red;
+  text-shadow: 0 0 1px red, 0.5px 0.5px 20px red, 1px 1px 50px red;
+}
+#reset:hover {
+  transition: 0.5s ease-in-out;
+  color: white;
+  border-color: white;
+  text-shadow: 0 0 1px white, 0.5px 0.5px 20px white, 1px 1px 50px white;
+}
+.timer {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: lato;
+  color: #ffffffa1;
+  border-color: #ffffffa1;
+  font-weight: 600;
+  font-size: 152px;
+}
